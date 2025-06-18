@@ -6,14 +6,19 @@
 # ==============================================
 
 # Lista de Pokémon representada por dicionários
-pokedex = [
+pokedex = [  
     {"nome": "Pikachu", "tipo": "Elétrico", "forca": 55},
     {"nome": "Charmander", "tipo": "Fogo", "forca": 52},
     {"nome": "Bulbasaur", "tipo": "Grama", "forca": 49},
     {"nome": "Squirtle", "tipo": "Água", "forca": 48},
-    {"nome": "Eevee", "tipo": "Normal", "forca": 50}
-]
-
+    {"nome": "Eevee", "tipo": "Normal", "forca": 50},
+    {"nome": "Lucario", "tipo": "Lutador", "forca": 70},
+    {"nome": "Gardevoir", "tipo": "Psíquico", "forca": 68},
+    {"nome": "Tyranitar", "tipo": "Pedra", "forca": 75},
+    {"nome": "Garchomp", "tipo": "Dragão", "forca": 80},
+    {"nome": "Umbreon", "tipo": "Noturno", "forca": 65}
+    ]
+    
 # Função principal que exibe o menu
 def menu():
     while True:
@@ -60,6 +65,4 @@ def buscar_pokemon():
             break
     if not encontrado:
         print("\n Pokémon não encontrado na Pokedex.")
-
-# Executar o menu
-menu()
+        
